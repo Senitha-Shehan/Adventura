@@ -1,0 +1,276 @@
+/*header*/
+.header{
+    line-height: 25%;
+    padding: 2px;
+    margin-left: 150px;
+    background-color: white;
+    font-size: 30px;
+}
+/* Style the second h3 */
+.moved-text {
+    text-align: right; /* Align the text to the right */
+    margin-top: 5px; /* Add some top margin for spacing */
+    margin-right: 520px; /* Add right margin to move it slightly to the right */
+}
+/* Style the logo */
+.logo {
+    position: absolute;
+    top: 5px; /* Adjust the top position as needed */
+    left:10px; /* Adjust the left position as needed */
+    width: 90px; /* Adjust the width as needed */
+    height: auto; /* Maintain the aspect ratio */
+}
+.a{
+    line-height: 5%;
+    margin-left: 580px;
+    margin-top: -70px;
+    font-size: large;
+}
+.butn1{
+    font-size: 15px;
+    border-radius: 12px;
+    position: absolute;
+    padding: 12px 28px;
+    top: 40px; /* Adjust the top position as needed */
+    right: 180px; /* Adjust the left position as needed */
+    width: 120px; /* Adjust the width as needed */
+    height: auto; /* Maintain the aspect ratio */
+}
+.b{
+    line-height: 5%;
+    font-size: large;
+}
+.butn2{
+    font-size: 15px;
+    border-radius: 12px;
+    position: absolute;
+    padding: 12px 28px;
+    top: 40px; /* Adjust the top position as needed */
+    right: 50px; /* Adjust the left position as needed */
+    width: 120px; /* Adjust the width as needed */
+    height: auto; /* Maintain the aspect ratio */
+}
+/* Add a black background color to the top navigation */
+.topnav {
+    background-color: rgba(38, 53, 134, 0.5);
+    overflow: hidden;
+  }
+  
+  /* Style the links inside the navigation bar */
+  .topnav a {
+    float: left;
+    color: #101010;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 17px;
+    font-weight: bold;
+    font-style: oblique;
+  }
+  
+  /* Change the color of links on hover */
+  .topnav a:hover {
+    background-color: #ddd;
+    color: black;
+  }
+  
+  /* Add a color to the active/current link */
+  .topnav a.active {
+    background-color: #046daa;
+    color: white;
+  }
+  .topnav input[type=text] {
+    border-radius: 12px;
+    float: right;
+    padding: 6px;
+    border: none;
+    margin-top: 8px;
+    margin-right: 100px;
+    font-size: 17px;
+    width: 400px;
+  }
+  .logo2 {
+    position: absolute;
+    top: 111px; /* Adjust the top position as needed */
+    right:25px; /* Adjust the left position as needed */
+    width: 38px; /* Adjust the width as needed */
+    height: auto; /* Maintain the aspect ratio */
+    color: rgb(7, 7, 7);
+}
+  
+/*footer*/
+.body {
+  display: grid;
+  justify-content: end;
+  align-content: end;
+  min-height: calc(100vh - 160px);
+  background: rgb(255, 255, 255);
+  padding: 50px;
+}
+
+.footer {
+  margin-top: 650px;
+  position: relative;
+  width: 100%;
+  height: 160px;
+  padding: 10px 4px; /* Adjusted padding to keep it centered */
+  background: rgba(38, 53, 134, 0.5);
+}
+
+.container {
+  width: 100%;
+  display: grid;
+  grid-template-columns: 1fr 1fr 2fr 1fr;
+  grid-gap: 20px;
+}
+
+.container .logo {
+  position: relative;
+  width: 90px;
+  height: 90px;
+  top: 10px;
+  margin-left: 20px;
+}
+
+.container .sec h3 {
+  position: relative;
+  top: 2px;
+  text-align: center;
+  margin-left: 31px;
+  font-size: larger;
+}
+
+.support {
+  font-weight: bold;
+  top: 2px;
+}
+
+.Email {
+  position: relative;
+}
+
+.Email button {
+  background: rgb(62, 61, 61);
+  border: 2px solid #fff;
+  color: white;
+  border-radius: 100px;
+  padding: 10px 30px;
+  font-size: 15px;
+  margin-top: 15px;
+}
+
+.Email button:hover {
+  color: rgb(216, 13, 13);
+  background-color: white;
+}
+
+.container .sci {
+  margin-top: 30px;
+  display: grid;
+  grid-template-columns: repeat(4, 50px);
+  margin-left: -29px;
+}
+
+.container .sci li {
+  list-style: none;
+}
+
+.sci li a {
+  display: inline-block;
+  width: 40px;
+  height: 40px;
+  background: rgb(38, 37, 37);
+  display: grid;
+  align-content: center;
+  justify-content: center;
+  text-decoration: none;
+}
+
+.sci li a i {
+  color: white;
+  font-size: 25px;
+}
+
+.sci li a i:hover {
+  color: rgb(255, 0, 0);
+  background-color: white;
+  padding-left: 2px;
+}
+
+.support {
+  position: relative;
+}
+
+.support ul li {
+  list-style: none;
+}
+
+.support ul li a {
+  color: #070707;
+  text-decoration: none;
+  margin-bottom: 15px;
+  display: inline-block;
+  font-family: sans-serif;
+  
+}
+
+.support ul li a:hover {
+  color: blue;
+  padding-left: 2px;
+}
+
+.contact {
+  position: relative;
+  
+}
+
+.contact li {
+  display: grid;
+  grid-template-columns: 40px 2fr;
+  margin-bottom: 5px;
+  line-height: 5%;
+  
+}
+
+.contact li span {
+  color: rgb(10, 10, 10);
+  font-size: 15px;
+  margin-top: 9px;
+  
+}
+
+.contact li a {
+  color: #151414;
+  text-decoration: none;
+}
+
+.contact li a:hover {
+  color: blue;
+  padding-left: 2px;
+}
+
+.contact li span:hover {
+  color: blue;
+  padding-left: 2px;
+}
+
+.copyrightText {
+  position: relative;
+  text-align: center; /* Center the copyright text */
+  margin-top: -50px; /* Adjust as needed */
+}
+
+
+.card{
+  width: 200px;
+  height: 230px;
+  display: inline-block;
+  border-radius: 10px;
+  padding: 15px 25px;
+  box-sizing: border-box;
+  cursor: pointer;
+  margin: 10px 15px;
+  background-position: center;
+  background-size: cover;
+  transition: transform 0.5s;
+} 
